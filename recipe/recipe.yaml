@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.20.2+go1.20.14"
+  version: "1.20.2"
 
 package:
   name: gopherjs
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/gopherjs/gopherjs/archive/v${{ version }}.tar.gz
-  sha256: 83d8e28e2eda1b8e396da3b9d5a6c41752016b472219310357584f2f56328d71
+  sha256: 305bab37bca7051fc716e3f382bacb1aefd35d998e2044257cc27fadcdda3944
 
 build:
   number: 0
